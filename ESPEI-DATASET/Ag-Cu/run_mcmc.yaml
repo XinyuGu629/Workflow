@@ -1,0 +1,23 @@
+system:
+  phase_models: phase_models.json      # path to the phases file
+  datasets: input-data  # path to the directory containing input data
+output:
+  output_db: Ag-Cu-mcmc.tdb               # what to name the output TDB file
+  verbosity: 2                            # levels of verbosity. Choose 0, 1 or 2 for Warnings, Info, or Debug
+  tracefile: trace.npy
+  probfile:  lnprob.npy
+  logfile:   mcmc-log.txt
+mcmc:
+  iterations: 500
+  save_interval: 1
+  scheduler: dask
+  cores: 10
+  input_db: Ag-Cu-generated.tdb
+  chains_per_parameter: 2
+  prior:
+    name: triangular
+    loc_shift_relative: -0.5
+    scale_relative: 1.0
+  data_weights:
+      ZPF: 20
+      SM: 0.1

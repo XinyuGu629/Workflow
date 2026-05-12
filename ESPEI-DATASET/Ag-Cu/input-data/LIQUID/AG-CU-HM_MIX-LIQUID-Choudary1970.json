@@ -1,0 +1,35 @@
+{
+  "components": ["AG", "CU"],
+  "phases": ["LIQUID"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_occupancies": [
+                              [[0.89261, 0.10739]],
+                              [[0.79241, 0.20759]],
+                              [[0.76135, 0.23865]],
+                              [[0.71532, 0.28468]],
+                              [[0.50791, 0.49209]],
+                              [[0.39899, 0.60101]],
+                              [[0.28819, 0.71181]],
+                              [[0.20124, 0.79876]]
+                            ],
+    "sublattice_configurations": [[["AG", "CU"]],
+                                  [["AG", "CU"]],
+                                  [["AG", "CU"]],
+                                  [["AG", "CU"]],
+                                  [["AG", "CU"]],
+                                  [["AG", "CU"]],
+                                  [["AG", "CU"]],
+                                  [["AG", "CU"]]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1300
+  },
+  "output": "HM_MIX",
+  "values":   [[[1233.35085, 2169.67786, 2530.94854, 3012.64278, 3639.11591, 
+                3645.88128, 3208.83847, 2556.65694]]],
+  "reference": "Expt., Choudary et al. (1300 K)",
+  "comment": "Digitized from Fig 4."
+}

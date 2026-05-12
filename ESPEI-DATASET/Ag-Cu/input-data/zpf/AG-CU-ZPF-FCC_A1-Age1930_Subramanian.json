@@ -1,0 +1,12 @@
+{
+  "components": ["AG", "CU", "VA"],
+  "phases": ["FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": [1038.967, 868.566, 570.726, 520.799, 469.023, 524.446, 1043.864]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [[["FCC_A1", ["CU"], [0.131299]], ["FCC_A1", ["CU"], [null]]], [["FCC_A1", ["CU"], [0.052243]], ["FCC_A1", ["CU"], [null]]], [["FCC_A1", ["CU"], [0.0111962]], ["FCC_A1", ["CU"], [null]]], [["FCC_A1", ["CU"], [0.0100959]], ["FCC_A1", ["CU"], [null]]], [["FCC_A1", ["CU"], [0.0089973]], ["FCC_A1", ["CU"], [null]]], [["FCC_A1", ["CU"], [0.996315]], ["FCC_A1", ["CU"], [null]]], [["FCC_A1", ["CU"], [0.955634]], ["FCC_A1", ["CU"], [null]]]],
+  "reference": "Ageew1930"
+}

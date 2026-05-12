@@ -1,0 +1,38 @@
+{
+    "components": ["AG", "CU", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+            673,673,
+            723,723,
+            773,773,
+            823,823,
+            873,873,
+            923,923,
+            973,973,
+            1023, 1023
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.998]]],
+        [["FCC_A1", ["CU"], [0.003]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.998]]],
+        [["FCC_A1", ["CU"], [0.013]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.997]]],
+        [["FCC_A1", ["CU"], [0.025]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.995]]],
+        [["FCC_A1", ["CU"], [0.031]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.990]]],
+        [["FCC_A1", ["CU"], [0.050]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.983]]],
+        [["FCC_A1", ["CU"], [0.066]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.972]]],
+        [["FCC_A1", ["CU"], [0.087]], ["FCC_A1", ["CU"],  [null]]],
+        [["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.951]]],
+        [["FCC_A1", ["CU"], [0.110]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Vesnin1988"
+}

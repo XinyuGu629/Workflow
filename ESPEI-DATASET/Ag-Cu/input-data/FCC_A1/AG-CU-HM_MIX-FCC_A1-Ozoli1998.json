@@ -1,0 +1,20 @@
+{
+  "components": ["AG", "CU", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_occupancies": [
+                              [[0.5, 0.5], 1.0]
+                            ],
+    "sublattice_configurations": [[["AG", "CU"], "VA"]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 300
+  },
+  "output": "HM_MIX",
+  "values":   [[[10034]]],
+  "reference": "DFT, Ozoliņš et al.",
+  "comment": "calculations Table 1"
+}

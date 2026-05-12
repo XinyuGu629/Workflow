@@ -1,0 +1,12 @@
+{
+  "components": ["AG", "CU", "VA"],
+  "phases": ["LIQUID", "FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": [1058, 1090, 1129, 1171, 1189, 1211, 1231, 1251, 1279, 1301, 1329]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":   [[["LIQUID", ["CU"], [0.421]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.531]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.629]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.718]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.759]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.798]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.836]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.872]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.906]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.939]], ["FCC_A1", ["CU"], [null]]], [["LIQUID", ["CU"], [0.97]], ["FCC_A1", ["CU"], [null]]]],
+  "reference": "Friedich1907"
+}

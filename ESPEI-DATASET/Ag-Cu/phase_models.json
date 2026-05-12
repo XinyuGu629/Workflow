@@ -1,0 +1,14 @@
+{
+  "components": ["AG", "CU", "VA"],
+  "refdata": "SGTE91",
+  "phases": {
+	     "LIQUID" : {
+			"sublattice_model": [["AG", "CU"]],
+			"sublattice_site_ratios": [1]
+	     },
+	     "FCC_A1": {
+		    "sublattice_model": [["AG", "CU"], ["VA"]],
+			"sublattice_site_ratios": [1, 1]
+	     }
+    }
+}

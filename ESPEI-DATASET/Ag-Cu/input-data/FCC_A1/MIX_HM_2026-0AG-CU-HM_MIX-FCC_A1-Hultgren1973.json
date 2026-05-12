@@ -1,0 +1,28 @@
+{
+  "components": ["AG", "CU", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_occupancies": [
+                              [[0.95, 0.05], 1.0],
+                              [[0.9, 0.1], 1.0],
+                              [[0.859, 0.141], 1.0],
+                              [[0.049, 0.951], 1.0],
+                              [[0.02, 0.98], 1.0]
+                            ],
+    "sublattice_configurations": [[["AG", "CU"], "VA"],
+                                  [["AG", "CU"], "VA"],
+                                  [["AG", "CU"], "VA"],
+                                  [["AG", "CU"], "VA"],
+                                  [["AG", "CU"], "VA"]]
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1052
+  },
+  "output": "HM_MIX",
+  "values":   [[[1200, 2250, 3000, 1740, 760]]],
+  "reference": "Expt., Hultgren et al. (1052 K)",
+  "comment": "calculations Table 7"
+}

@@ -1,0 +1,21 @@
+{
+  "components": ["AG", "CU", "VA"],
+  "phases": ["LIQUID"],
+  "reference_state": {
+    "phases": ["LIQUID"],
+    "conditions": {
+      "P": 101325,
+      "T": 1423,
+      "X_AG": 0
+    }
+  },
+  "conditions": {
+    "P": 101325,
+    "T": 1423,
+    "X_AG": [0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1, 0]
+  },
+  "output": "ACR_CU",
+  "values":   [[[0.25337, 0.422834, 0.531774, 0.615956, 0.68088, 
+                0.730674, 0.779092, 0.841265, 0.915818, 1]]],
+  "reference": "Hultgren1960thermodynamic"
+}
